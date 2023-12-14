@@ -34,7 +34,7 @@ class CustomDoorKey(MiniGridEnv):
 
         vector_pos = spaces.Box(
             low=1,
-            high=size-1,
+            high=100,
             shape=(2,),
             dtype="uint8",
         )
