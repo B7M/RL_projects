@@ -1,0 +1,3 @@
+## A simple implementation of Reinforcement Learning Q-Learning for maze game
+In this example, we will implement a simple Q-learning algorithm to solve a maze game. The goal of the agent is to find the shortest path from the start position to the end position. The agent can move in four directions: up, down, left, and right. The agent receives a reward of -1 for each step taken and a reward of 100 for reaching the end position. The agent receives a reward of -100 for hitting the wall. The agent's goal is to find the shortest path to the end position while avoiding the walls.
+A gif of the agent solving the maze is in the `output` folder.
